@@ -1,0 +1,59 @@
+2022-03-09 14:39:27.737  INFO 16596 --- [main] c.n.d.l.LogAnalyzerApplication           : Starting LogAnalyzerApplication using Java 11.0.12 on DESKTOP-N38RJ75 with PID 16596 (D:\mylearning\log-analyzer\target\classes started by NitinJain in D:\mylearning\log-analyzer)
+2022-03-09 14:39:27.741 DEBUG 16596 --- [main] c.n.d.l.LogAnalyzerApplication           : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-09 14:39:27.742  INFO 16596 --- [main] c.n.d.l.LogAnalyzerApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-03-09 14:39:28.512  INFO 16596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2022-03-09 14:39:28.519  INFO 16596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-09 14:39:28.526  INFO 16596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-09 14:39:28.602  INFO 16596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-09 14:39:28.602  INFO 16596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 793 ms
+2022-03-09 14:39:28.873  INFO 16596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2022-03-09 14:39:28.885  INFO 16596 --- [main] c.n.d.l.LogAnalyzerApplication           : Started LogAnalyzerApplication in 1.614 seconds (JVM running for 2.59)
+2022-03-09 14:39:38.016  INFO 16596 --- [http-nio-9092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 14:39:38.017  INFO 16596 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-09 14:39:38.018  INFO 16596 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-09 14:39:38.036  INFO 16596 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in info mode
+2022-03-09 14:39:38.036  WARN 16596 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in warning mode 
+2022-03-09 14:39:38.037 ERROR 16596 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in error mode 
+2022-03-09 14:39:38.037 DEBUG 16596 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in debug mode 
+2022-03-09 14:39:38.037 TRACE 16596 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in trace mode
+2022-03-09 14:39:39.547  INFO 16596 --- [http-nio-9092-exec-2] c.n.d.l.LogAnalyzerApplication           : home controller accessed in info mode
+2022-03-09 14:39:39.548  WARN 16596 --- [http-nio-9092-exec-2] c.n.d.l.LogAnalyzerApplication           : home controller accessed in warning mode 
+2022-03-09 14:39:39.548 ERROR 16596 --- [http-nio-9092-exec-2] c.n.d.l.LogAnalyzerApplication           : home controller accessed in error mode 
+2022-03-09 14:39:39.548 DEBUG 16596 --- [http-nio-9092-exec-2] c.n.d.l.LogAnalyzerApplication           : home controller accessed in debug mode 
+2022-03-09 14:39:39.548 TRACE 16596 --- [http-nio-9092-exec-2] c.n.d.l.LogAnalyzerApplication           : home controller accessed in trace mode
+2022-03-09 14:40:57.635  INFO 8268 --- [main] c.n.d.l.LogAnalyzerApplication           : Starting LogAnalyzerApplication using Java 11.0.12 on DESKTOP-N38RJ75 with PID 8268 (D:\mylearning\log-analyzer\target\classes started by NitinJain in D:\mylearning\log-analyzer)
+2022-03-09 14:40:57.639 DEBUG 8268 --- [main] c.n.d.l.LogAnalyzerApplication           : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-09 14:40:57.641  INFO 8268 --- [main] c.n.d.l.LogAnalyzerApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-03-09 14:40:58.435  INFO 8268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2022-03-09 14:40:58.444  INFO 8268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-09 14:40:58.444  INFO 8268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-09 14:40:58.509  INFO 8268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-09 14:40:58.509  INFO 8268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2022-03-09 14:40:58.752  INFO 8268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2022-03-09 14:40:58.761  INFO 8268 --- [main] c.n.d.l.LogAnalyzerApplication           : Started LogAnalyzerApplication in 1.594 seconds (JVM running for 2.559)
+2022-03-09 14:41:02.861  INFO 8268 --- [http-nio-9092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 14:41:02.862  INFO 8268 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-09 14:41:02.862  INFO 8268 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-09 14:41:02.879  INFO 8268 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in info mode
+2022-03-09 14:41:02.879  WARN 8268 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in warning mode 
+2022-03-09 14:41:02.879 ERROR 8268 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in error mode 
+2022-03-09 14:41:02.879 DEBUG 8268 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in debug mode 
+2022-03-09 14:41:02.880 TRACE 8268 --- [http-nio-9092-exec-1] c.n.d.l.LogAnalyzerApplication           : home controller accessed in trace mode
+2022-03-09 14:42:37 - INFO  - StartupInfoLogger:55 - c.n.d.l.LogAnalyzerApplication - Starting LogAnalyzerApplication using Java 11.0.12 on DESKTOP-N38RJ75 with PID 9208 (D:\mylearning\log-analyzer\target\classes started by NitinJain in D:\mylearning\log-analyzer)
+2022-03-09 14:42:37 - DEBUG - StartupInfoLogger:56 - c.n.d.l.LogAnalyzerApplication - Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-09 14:42:37 - INFO  - SpringApplication:640 - c.n.d.l.LogAnalyzerApplication - No active profile set, falling back to 1 default profile: "default"
+2022-03-09 14:42:38 - INFO  - TomcatWebServer:108 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2022-03-09 14:42:38 - INFO  - DirectJDKLog:173 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-09 14:42:38 - INFO  - DirectJDKLog:173 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-09 14:42:38 - INFO  - DirectJDKLog:173 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-09 14:42:38 - INFO  - ServletWebServerApplicationContext:290 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 870 ms
+2022-03-09 14:42:38 - INFO  - TomcatWebServer:220 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2022-03-09 14:42:38 - INFO  - StartupInfoLogger:61 - c.n.d.l.LogAnalyzerApplication - Started LogAnalyzerApplication in 1.634 seconds (JVM running for 2.597)
+2022-03-09 14:42:43 - INFO  - DirectJDKLog:173 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 14:42:43 - INFO  - FrameworkServlet:525 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-03-09 14:42:43 - INFO  - FrameworkServlet:547 - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-03-09 14:42:43 - INFO  - Frontend:25 - c.n.d.l.LogAnalyzerApplication - home controller accessed in info mode
+2022-03-09 14:42:43 - WARN  - Frontend:26 - c.n.d.l.LogAnalyzerApplication - home controller accessed in warning mode 
+2022-03-09 14:42:43 - ERROR - Frontend:27 - c.n.d.l.LogAnalyzerApplication - home controller accessed in error mode 
+2022-03-09 14:42:43 - DEBUG - Frontend:28 - c.n.d.l.LogAnalyzerApplication - home controller accessed in debug mode 
+2022-03-09 14:42:43 - TRACE - Frontend:29 - c.n.d.l.LogAnalyzerApplication - home controller accessed in trace mode
